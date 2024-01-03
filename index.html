@@ -1,9 +1,48 @@
 <!DOCTYPE html>
-<html>
-    <head>
-         <title>Test</title>
-    </head>
-    <body>
-    <h1>Hello World</h1>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Segitiga</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <script src="js/script.js"></script>
+    <header id="navigation-bar">
+        <h3> Welcome to Katik</h3>
+    </header>
+    <div class="form-luas">
+        <h2 style="text-align: center; background-color: lightgreen; padding: 10px; border-radius: 5px;">Luas Segitiga</h2>
+        <img src="img/Rumus Luas Segitiga.png" width="200" height="200" style="margin-left: 80px;">
+        <section class="input-luas-section">
+            <h2 style="text-align: center;">Menghitung Luas Segitiga</h2>
+            <label for="input-tinggi-alas-luas">Nilai Tinggi</label>
+            <input type="number" id="input-tinggi-alas-luas" class="katik-input">
+            <label for="input-alas-luas">Nilai Alas</label>
+            <input type="number" id="input-alas-luas" class="katik-input">
+            <div class="buttons">
+                <button onclick="hitungLuas()">Hitung</button>
+                <button>Riset</button>
+            </div>
+        </section>
+    </div>
+
+    <div class="form-keliling">
+        <h2 style="text-align: center; background-color: lightgreen; padding: 10px; border-radius: 5px;">Keliling Segitiga</h2>
+        <img src="img/Rumus Keliling Segitiga.png" width="200" height="200" style="margin-left: 90px;">
+        <section class="input-luas-section">
+            <h2 style="text-align: center;">Menghitung Luas Segitiga</h2>
+            <label for="input-sisi1-keliling">Nilai Sisi ke-1</label>
+            <input type="number" id="input-sisi1-keliling" class="katik-input">
+            <label for="input-sisi2-keliling">Nilai Sisi ke-2</label>
+            <input type="number" id="input-sisi2-keliling" class="katik-input">
+            <label for="input-sisi3-keliling">Nilai Sisi ke-3</label>
+            <input type="number" id="input-sisi3-keliling" class="katik-input">
+            <div class="buttons">
+                <button onclick="hitungKeliling()">Hitung</button>
+                <button>Riset</button>
+            </div>
+        </section>
+    </div>
+</body>
 </html>
