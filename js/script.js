@@ -18,16 +18,3 @@ function hitungKeliling() {
     
     alert(`Keliling segitiga adalah: ${keliling}`);
 }
-
-// Fungsi untuk mereset nilai input luas segitiga
-function risetLuas() {
-    document.getElementById('input-tinggi-alas-luas').value = '';
-    document.getElementById('input-alas-luas').value = '';
-}
-
-// Fungsi untuk mereset nilai input keliling segitiga
-function risetKeliling() {
-    document.getElementById('input-sisi1-keliling').value = '';
-    document.getElementById('input-sisi2-keliling').value = '';
-    document.getElementById('input-sisi3-keliling').value = '';
-}
