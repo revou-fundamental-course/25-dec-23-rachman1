@@ -18,3 +18,26 @@ function hitungKeliling() {
     
     alert(`Keliling segitiga adalah: ${keliling}`);
 }
+
+// Fungsi untuk menampilkan hasil luas
+function tampilkanHasilLuas(hasil) {
+    document.getElementById('hasil-luas').innerText = `Luas segitiga adalah: ${hasil}`;
+}
+
+// Fungsi untuk menampilkan hasil keliling
+function tampilkanHasilKeliling(hasil) {
+    document.getElementById('hasil-keliling').innerText = `Keliling segitiga adalah: ${hasil}`;
+}
+
+// Fungsi untuk mereset nilai input luas segitiga
+function risetLuas() {
+    document.getElementById('input-tinggi-alas-luas').value = '';
+    document.getElementById('input-alas-luas').value = '';
+}
+
+// Fungsi untuk mereset nilai input keliling segitiga
+function risetKeliling() {
+    document.getElementById('input-sisi1-keliling').value = '';
+    document.getElementById('input-sisi2-keliling').value = '';
+    document.getElementById('input-sisi3-keliling').value = '';
+}
